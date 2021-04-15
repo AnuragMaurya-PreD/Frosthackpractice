@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: open-sans, roboto, sans-serif;
+}
+
+body {
+    font-family: open-sans, roboto, sans-serif;
+    background-image: url("practice1_background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#main {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#inmain{
+    margin: 25px ;
+}
+
+#first {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#heading {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+#second {
+    display: flex;
+    flex-direction: column;
+    font-size: 21px;
+    margin: 25px auto;
+}
+
+#third {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -10px;
+
+}
+
+.input{
+    padding: 17px;
+    margin: 8px 8px;
+    background-color: rgb(250, 246, 246);
+    border: none;
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: rgb(129, 164, 235);
+}
+
+#para{
+    font-size: 16px;
+    font-weight: 500;
+}
